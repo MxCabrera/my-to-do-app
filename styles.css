@@ -197,11 +197,11 @@
 
    main {
       padding: 30px;
-      margin-bottom: 30px;
       font-size: 21px;
       font-weight: 200;
       line-height: 2.1;
       background-color: #deebe7;
+      height: 92.2vh;
    }
 
    .container {
@@ -267,4 +267,11 @@
       color: #999;
    }
 
+   footer {
+      background-color: grey;
+   }
 
+   footer p {
+      text-align: center;
+      padding: 20px 0;
+   }
