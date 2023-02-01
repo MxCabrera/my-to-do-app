@@ -36,7 +36,7 @@ form.addEventListener('submit', function (event) {
       listItemElement.appendChild(taskText);
 
       // target ul node
-      const ulElement = document.querySelector('ul');
+      const ulElement = document.querySelector('.mainUl');
       // add li to ul 
       ulElement.appendChild(listItemElement);
 
@@ -46,7 +46,7 @@ form.addEventListener('submit', function (event) {
 });
 
 // target the ul element to take advantage of event bubbling 
-const ul = document.querySelector('ul');
+const ul = document.querySelector('.mainUl');
 // attached a listener to the parent (there are no list items to attach a listener to) so it can hear the events happening to its children
 ul.addEventListener('click', function (event) {
    // check if you've clicked the box
