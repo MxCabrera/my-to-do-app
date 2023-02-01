@@ -61,3 +61,12 @@ const updateToDo = function (iElement) {
    // add or remove the text-muted class to the parent (the li)
    iElement.parentElement.classList.toggle('text-muted');
 }
+
+
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+
+hamburger.addEventListener('click', () => {
+   hamburger.classList.toggle('active');
+   navMenu.classList.toggle('active');
+})
